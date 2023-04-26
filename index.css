@@ -9,7 +9,7 @@ html, body {
 
 p {
     margin: 1em 1em 1em 1em;
-    border: 1px solid red;
+    
 }
 
 body {
@@ -34,8 +34,7 @@ div.top{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
-    border: 1px solid blue;
+    height: 60px;
 }
 
 h1.time {
@@ -47,6 +46,19 @@ h1.time {
     border: 1px solid green;
 }
 
+img{
+    width: 25px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 1em;
+}
 
 
 
