@@ -6,4 +6,10 @@ fetch(
     console.log(data);
     document.body.style.backgroundImage = `url('${data.urls.full}')`;
     document.getElementById('author').textContent = ` By: ${data.user.name}`
-  });
+  })
+  .catch(err => {
+    console.log("someghing went wrong")
+    document.body.style.backgroundImage = "url('error.jpg')";
+  })
+
+
